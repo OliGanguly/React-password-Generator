@@ -14,8 +14,8 @@ function App() {
     <BrowserRouter>
     <Header/>
     <Routes>
-      <Route exact path="/" element={<Pagination/>}/>
-      <Route exact path="/passwordgenerator" element={<PasswordGenerator/>}/>
+      <Route exact path="/" element={<PasswordGenerator/>}/>
+      <Route exact path="/pagination" element={<Pagination/>}/>
     </Routes>
     </BrowserRouter>
 

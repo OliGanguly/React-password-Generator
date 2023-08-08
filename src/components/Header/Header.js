@@ -7,8 +7,9 @@ function Header(props) {
     return (
         <div className='navbar'>
             <ul className='nav-items'>
-            <Link style={{textDecoration:"none",marginRight:"10px"}} to="/"><li>Pagination</li></Link>
-            <Link style={{textDecoration:"none",marginRight:"10px"}} to="/passwordgenerator"><li>Password Generator</li></Link>
+            <Link style={{textDecoration:"none",marginRight:"10px"}} to="/"><li>Password Generator</li></Link>
+            <Link style={{textDecoration:"none",marginRight:"10px"}} to="/pagination"><li>Pagination</li></Link>
+           
             </ul>
            
         </div>
