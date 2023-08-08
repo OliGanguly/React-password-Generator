@@ -1,0 +1,7 @@
+.navbar{
+    color: black;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+}
